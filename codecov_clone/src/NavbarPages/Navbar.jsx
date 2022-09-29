@@ -8,8 +8,8 @@ function Navbar() {
            
 
 
-            <Flex minWidth='max-content' alignItems='center' gap='2' my="1" py="2" mx="10" 
-                border="0.1rem solid gray">
+            <Flex minWidth='max-content' alignItems='center' gap='2' my="1" py="2" mx="10 "  mt="-10px"
+                >
 
                  <Box>
                     <HStack spacing='60px' mx="5">
