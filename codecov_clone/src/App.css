@@ -35,4 +35,94 @@
   to {
     transform: rotate(360deg);
   }
+} 
+         /* ***************Product_Hover*************** */
+#Product_hover {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  line-height: 25px;
+  width: 580px;
+  height: 245px;
+  padding: 20px;
+  padding-top: 0px;
+  top: 150px;
+  left: 280px;
+  display: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+#Product_hover>a {
+  display: block;
+  cursor: pointer;
+  text-align: left;
+}
+
+#Product_hover>div:last-child>div>a:hover {
+
+  color: #f01f7a;
+}
+
+#product:hover #Product_hover {
+  display: inline-block
+}
+
+.triangle{
+  height: 15px;
+  width: 15px;
+  margin-left: 25px;
+  margin-bottom: -11px;
+  rotate: 225deg;
+  box-shadow: rgba(101, 100, 100, 0.157) 0px 5px 15px
+}
+
+#Product_hover>div{
+  
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+#Product_hover>div:last-child>div>a{
+  display: block;
+}
+
+
+
+/* ********************Docoment_hover*********************** */
+
+#customer_hover {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  line-height: 25px;
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+  top: 150px;
+  left: 560px;
+  display: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+}
+#customer_hover{
+  text-align: left
+}
+
+#customer_hover>a {
+  display: block;
+  cursor: pointer;
+
+}
+
+#customer_hover>a:hover {
+  /* text-decoration: underline; */
+  color: #f01f7a;
+}
+
+#customer:hover #customer_hover {
+  display: inline-block;
+}
+

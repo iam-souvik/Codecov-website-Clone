@@ -13,17 +13,16 @@ const FooterPage = () => {
 
                 {/* <HStack>
                 <Image src='https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/codecov/codecov-circle.svg' alt='error' />
-                <Image src='https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-128.png' alt='error' />
-                <Image src='https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-128.png' alt='error' />
-                <Image src='https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-github-128.png' alt='error' />
+                <Image src='https://img.icons8.com/ios-glyphs/2x/twitter-circled.png' alt='error' />
+                <Image  src='https://about.codecov.io/wp-content/themes/codecov/assets/logos/ci/github/github-icon.svg' alt='error' />
                 <Image src='https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-social-youtube-outline-128.png' alt='error' />
                 <Image src='https://cdn0.iconfinder.com/data/icons/picons-social/57/69-angellist-128.png' alt='error' />
                 <Image src='https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/discourse-128.png' alt='error' />
                 <Image src='https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/codecov/codecov-circle.svg' alt='error' />
-                </HStack>
-                 */}
+                </HStack> */}
+                
 
-                <Grid templateColumns='repeat(6, 1fr)' gap={6}>
+                <Grid templateColumns='repeat(6, 1fr)' gap={6} textAlign="left" ml={5}>
 
                     <GridItem color="white"  >
                         <br />
@@ -53,7 +52,7 @@ const FooterPage = () => {
                         <Heading size='sm'>CUSTOMERS</Heading>
                         <br />
                         <Text fontSize='sm' >Customers</Text>
-                        
+
                         <Text fontSize='sm' >Case Studies</Text>
 
                         <Text fontSize='sm' >Community</Text>

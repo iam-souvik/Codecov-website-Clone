@@ -1,7 +1,7 @@
 import React from 'react'
-import { Box, Button, Image, Text, Grid, VStack, Highlight, Container, HStack, GridItem, Spacer, Heading, ListItem, List, ListIcon, } from '@chakra-ui/react'
+import { Box, Button, Image, Text, Grid, VStack, Highlight, Container, HStack, GridItem, Spacer, Heading, ListItem, List } from '@chakra-ui/react'
 
-import { ArrowForwardIcon } from "@chakra-ui/icons"
+import { ArrowForwardIcon, CheckIcon } from "@chakra-ui/icons"
 
 
 
@@ -178,24 +178,27 @@ function HomePage() {
 
                         {/* <Container w="40%"></Container> */}
 
-                        <Container h="80px"  >
+                        <Container h="80px" textAlign="left"  >
                             <List spacing={3} >
                                 <ListItem color="#ff0077">
-                                    <ListIcon as="MdCheckCircle" color='#ff0077' />
+                                    
+                                    <CheckIcon bg="pink.100" />
 
                                     Source Code Coverage
                                 </ListItem>
                                 <ListItem color="#ff0077">
-                                    <ListIcon as="MdCheckCircle" color='#ff0077' />
+                                    
+                                    <CheckIcon bg="pink.100"/>
                                     20+ Languages and CI/CD Agnostic
                                 </ListItem>
                                 <ListItem color="#ff0077">
-                                    <ListIcon as="MdCheckCircle" color='#ff0077' />
+                                   
+                                    <CheckIcon bg="pink.100"/>
                                     Report Merging
                                 </ListItem>
-                                {/* You can also use custom icons from react-icons */}
+                                
                                 <ListItem color="#ff0077">
-                                    <ListIcon as="MdCheckCircle" color='#ff0077' />
+                                    <CheckIcon bg="pink.100"/>
                                     Coverage Isolation
                                 </ListItem>
                             </List>
