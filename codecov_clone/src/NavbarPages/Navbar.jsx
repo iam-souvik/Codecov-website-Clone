@@ -15,9 +15,9 @@ function Navbar() {
 
                 <Box>
                     <HStack spacing='60px' mx="5">
-                        <Link to="/logo"><Image boxSize='150px' src='https://about.codecov.io/wp-content/themes/codecov/assets/brand/logos/codecov.svg' alt='Dan Abramov' /></Link>
+                        <Link to="/homepage"><Image boxSize='150px' src='https://about.codecov.io/wp-content/themes/codecov/assets/brand/logos/codecov.svg' alt='Dan Abramov' /></Link>
 
-                        <Link to="/" ><Text as='b' id="product"><h4>Product
+                        <Link to="/" ><Text as='b' id="product" ><h4>Product
                             <div id="Product_hover">
                                 <div className="triangle"></div>
                                 <div>
@@ -43,7 +43,7 @@ function Navbar() {
                                         <a>Education</a>
 
                                     </div>
-
+                                   
 
 
 
@@ -55,6 +55,8 @@ function Navbar() {
                                             <Text fontSize='xs'>Introducing Codecov's New Uploader</Text>
                                         </Box >
                                     </Box> */}
+                                     
+
 
 
 
@@ -62,7 +64,7 @@ function Navbar() {
 
                             </div>
                         </h4></Text></Link>
-                        <Link to="/doco"><Text as='b'>Docomentation</Text></Link>
+                        <Link to="/doco"><Text as='b' >Documentation</Text></Link>
                         
                 
                         <Link to="/customer"><Text as='b' id="customer">Customer
@@ -71,7 +73,7 @@ function Navbar() {
                             <br/>
                             <a>Our Customers</a>
                             <a> Community</a>
-                            <a> Community</a>
+                            <a> Support</a>
                             <br/>
                           
 
@@ -80,13 +82,24 @@ function Navbar() {
                         
                         
                         </Text></Link>
-                        <Link to="/resources"><Text as='b'>Resources</Text></Link>
-                        <Link to="/pricing"><Text as='b'>Pricing</Text></Link>
-                        <Link to="/contact"><Text as='b'>Contact</Text></Link>
+                        <Link to="/resources" ><Text as='b'>Resources</Text></Link>
+                        <Link to="/pricing" ><Text as='b'>Pricing</Text></Link>
+                        <Link to="/contact" ><Text as='b'>Contact</Text></Link>
 
 
                         <HStack spacing='70px' mx="5"  >
-                            <Link to="/login" ><Text as='b'>Login</Text></Link>
+                            <Link to="/login" ><Text as='b' id="login" >Login
+                            
+                                <div id="login_hover">
+                                    <a>Github</a>
+                                    <a>gitLab</a>
+                                    <a>Bitbuckut</a>
+                                </div>
+                               
+
+                            
+                            
+                            </Text></Link>
 
                             <Link to="/get_demo"><Button colorScheme='blue' >Get Demo</Button></Link>
 
