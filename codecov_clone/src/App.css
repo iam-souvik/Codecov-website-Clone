@@ -44,14 +44,14 @@
   background-color: #fff;
   color: black;
   line-height: 25px;
-  width: 580px;
+  width: 540px;
   height: 245px;
   padding: 20px;
   padding-top: 0px;
   top: 150px;
   left: 280px;
   display: none;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5%;
 }
 
 #Product_hover>a {
@@ -78,15 +78,23 @@
   box-shadow: rgba(101, 100, 100, 0.157) 0px 5px 15px
 }
 
-#Product_hover>div{
+#Product_hover>div:last-child{
+  /* border: 1px solid red; */
   
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
+
 #Product_hover>div:last-child>div>a{
   display: block;
 }
+
+/* #Product_hover>div>div:last-child{
+  border: 1px silid blue;
+} */
+
+
 
 
 
@@ -105,7 +113,7 @@
   top: 150px;
   left: 560px;
   display: none;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+  border-radius: 7%;
 }
 #customer_hover{
   text-align: left
@@ -123,6 +131,45 @@
 }
 
 #customer:hover #customer_hover {
+  display: inline-block;
+}
+
+
+/* ****************login************************** */
+#login_hover {
+  
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  line-height: 25px;
+  width: 130px;
+  height: 120px;
+  padding: 20px;
+  top: 147px;
+  left: 1060px;
+  display: none;
+  border-radius: 10%;
+ 
+}
+#login_hover{
+  text-align: left
+}
+
+#login_hover>a {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+
+}
+
+#login_hover>a:hover {
+  /* text-decoration: underline; */
+  color: #f01f7a;
+}
+
+#login:hover #login_hover {
   display: inline-block;
 }
 

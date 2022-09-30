@@ -223,18 +223,20 @@ function HomePage() {
 
             {/*************************************Resources _Area******************************* */}
 
-
+            <br />
             < HStack gap={5} justify="center"  >
 
-                <Box boxSize='330px' height={200}>
+                <Box boxSize='330px' height="200px">
                     <Image src='https://about.codecov.io/wp-content/uploads/2021/11/cover.jpg' alt='Dan Abramov' />
 
                     <Box boxShadow='2xl' p='6' rounded='md' bg='white'>
-                        <Button display="block" size='xs' color="#ff0077" bg="pink.200" variant='ghost' >Page</Button>
+                        <Button display="block" size='xs' color="#ff0077" bg="pink.100" variant='ghost' >Page</Button>
                         <Spacer />
                         <Heading as="b" size='sm'>What should my code coverage goal be?</Heading>
                         <br />
                         <br />
+                        <br />
+                       
 
                         <Box>
                             <Button display="block" mr="30px" as="bold" variant="link" size='xs' color="#ff0077" >Learn More <ArrowForwardIcon /> </Button>
@@ -248,7 +250,7 @@ function HomePage() {
                     <Image src='https://about.codecov.io/wp-content/uploads/2021/02/2020-state-of-open-source-code-coverage.jpg' alt='Dan Abramov' />
 
                     <Box boxShadow='2xl' p='6' rounded='md' bg='white'>
-                        <Button display="block" ml={5} size='xs' color="#ff0077" bg="pink.200" variant='ghost' >Page</Button>
+                        <Button display="block" ml={5} size='xs' color="#ff0077" bg="pink.100" variant='ghost' >INFOGRAPHIC</Button>
                         <Spacer />
                         <Heading as="b" size='sm'>2020 State of Open Source Code Coverage</Heading>
                         <br />
@@ -266,7 +268,7 @@ function HomePage() {
                     <Image src='https://about.codecov.io/wp-content/uploads/2021/02/8-factors-Influencing.png' alt='Dan Abramov' />
 
                     <Box boxShadow='2xl' p='6' rounded='md' bg='white'>
-                        <Button display="block" size='xs' color="#ff0077" bg="pink.200" variant='ghost' >Page</Button>
+                        <Button display="block" size='xs' color="#ff0077" bg="pink.100" variant='ghost' >BLOG POST</Button>
                         <Spacer />
                         <Heading as="b" size='sm'>8 Factors Influencing Your Approach to Code Coverage</Heading>
                         <br />

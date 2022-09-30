@@ -18,6 +18,7 @@ import Pricing from "../NavbarPages/Pricing"
 import Contact from "../NavbarPages/Contact"
  import Login from "../NavbarPages/Login"
  import GetDemo from "../NavbarPages/Get_Demo"
+import HomePage from "../Pages/HomePage"
 
 
 
@@ -38,6 +39,7 @@ function AllRoute() {
             <Route path="/contact" element={<Contact />}></Route>
             <Route path="/login" element={<Login />}></Route>
             <Route path="/get_demo" element={<GetDemo />}></Route>
+            <Route path="/homepage" element={<HomePage/>}></Route>
         </Routes>
 
 
