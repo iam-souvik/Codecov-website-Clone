@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Box, Button,  Flex, Heading, HStack, Image, Text } from "@chakra-ui/react"
+import { Box, Button, Flex, Heading, HStack, Image, Text } from "@chakra-ui/react"
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 
@@ -11,7 +11,7 @@ function Navbar() {
 
 
             <Flex minWidth='max-content' alignItems='center' gap='2' my="1" py="2" mx="10 " mt="-10px" >
-           
+
 
                 <Box>
                     <HStack spacing='60px' mx="5">
@@ -37,13 +37,25 @@ function Navbar() {
                                         <Heading color="gray" size='sm'>SOLUTIONS FOR...</Heading>
                                         <br />
 
-                                        <Link>Open Source</Link>
-                                        <a>EnterPrices</a>
-                                        <a>StartsUps</a>
-                                        <a>Education</a>
+                                        <Flex gap={2}>
+                                            <Image w="20px" src='https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/open-source.svg' alt='Dan Abramov' />
+                                            <a>Open Source</a>
+                                        </Flex>
+                                        <Flex gap={2}>
+                                            <Image w="20px" src='https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/enterprise.svg' alt='Dan Abramov' />
+                                            <a>EnterPrices</a>
+                                        </Flex>
+                                        <Flex gap={2}>
+                                            <Image w="20px" src='https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/solutions/startups.svg' alt='Dan Abramov' />
+                                            <a>Startup</a>
+                                        </Flex>
+                                        <Flex gap={2}>
+                                            <Image w="20px" src='https://about.codecov.io/wp-content/themes/codecov/assets/brand/icons/umbrellas/umbrella.svg' alt='Dan Abramov' />
+                                            <a>Education</a>
+                                        </Flex>
 
                                     </div>
-                                   
+
 
 
 
@@ -55,7 +67,7 @@ function Navbar() {
                                             <Text fontSize='xs'>Introducing Codecov's New Uploader</Text>
                                         </Box >
                                     </Box> */}
-                                     
+
 
 
 
@@ -65,22 +77,22 @@ function Navbar() {
                             </div>
                         </h4></Text></Link>
                         <Link to="/doco"><Text as='b' >Documentation</Text></Link>
-                        
-                
-                        <Link to="/customer"><Text as='b' id="customer">Customer
-                        <div id="customer_hover">
-                            <Heading size='xs' color="gray">CUSTOMERS</Heading>
-                            <br/>
-                            <a>Our Customers</a>
-                            <a> Community</a>
-                            <a> Support</a>
-                            <br/>
-                          
 
-                            <Text as="b" color="#f01f7a" fontSize='xs' >Join the Codecov community! <ArrowForwardIcon/> </Text>
-                        </div>
-                        
-                        
+
+                        <Link to="/customer"><Text as='b' id="customer">Customer
+                            <div id="customer_hover">
+                                <Heading size='xs' color="gray">CUSTOMERS</Heading>
+                                <br />
+                                <a>Our Customers</a>
+                                <a> Community</a>
+                                <a> Support</a>
+                                <br />
+
+
+                                <Text as="b" color="#f01f7a" fontSize='xs' >Join the Codecov community! <ArrowForwardIcon /> </Text>
+                            </div>
+
+
                         </Text></Link>
                         <Link to="/resources" ><Text as='b'>Resources</Text></Link>
                         <Link to="/pricing" ><Text as='b'>Pricing</Text></Link>
@@ -89,19 +101,28 @@ function Navbar() {
 
                         <HStack spacing='70px' mx="5"  >
                             <Link to="/login" ><Text as='b' id="login" >Login
-                            
-                                <div id="login_hover">
-                                    <a>Github</a>
-                                    <a>gitLab</a>
-                                    <a>Bitbuckut</a>
-                                </div>
-                               
 
-                            
-                            
+                                <div id="login_hover">
+                                    <Flex gap={2}>
+                                        <Image w="20px" src='https://about.codecov.io/wp-content/themes/codecov/assets/logos/ci/github/github-icon.svg' alt='Dan Abramov' />
+                                        <a>Github</a>
+                                    </Flex>
+                                    <Flex gap={2}>
+                                        <Image w="20px" src='https://about.codecov.io/wp-content/themes/codecov/assets/logos/ci/gitlab/gitlab-icon.svg' alt='Dan Abramov' />
+                                        <a>GitLab</a>
+                                    </Flex>
+                                    <Flex gap={2}>
+                                        <Image w="20px" src='https://about.codecov.io/wp-content/themes/codecov/assets/logos/ci/bitbucket/bitbucket-icon.svg' alt='Dan Abramov' />
+                                        <a>Bitbucket</a>
+                                    </Flex>
+                                </div>
+
+
+
+
                             </Text></Link>
 
-                            <Link to="/get_demo"><Button colorScheme='blue' >Get Demo</Button></Link>
+                            <Link to="/get_demo"><Button bg="black" color="white" id="button" >Get Demo</Button></Link>
 
                         </HStack>
 
