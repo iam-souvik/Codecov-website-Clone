@@ -3,13 +3,13 @@
 description : >What is Codecov used for..?
             Codecov provides metrics and insights into the results of tests through code coverage reports. Coverage reports are used to determine which lines of code were tested and which lines were not tested, which may contain bugs and syntax errors.
             
-            Tech stack :  HTML | CSS | Javascript | React | Chakra UI  
+          
             
             
-            Netlify live link :https://iam-souvik-makes-great-sites.netlify.app
+           
             
             
-            <h2><i>Tech Stack</i></h2>
+             Tech stack :  HTML | CSS | Javascript | React | Chakra UI  
 
 <p>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5" />
@@ -19,3 +19,4 @@ description : >What is Codecov used for..?
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="reactjs" />
     
 </p>
+ Netlify live link :https://iam-souvik-makes-great-sites.netlify.app
